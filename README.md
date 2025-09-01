@@ -10,3 +10,8 @@ python prepare.py
 python extract_weights.py
 python unet.py
 ```
+
+## based datasets
+
+- [1aurent/ddpm-mnist](https://huggingface.co/1aurent/ddpm-mnist)
+- [ylecun/minist](https://huggingface.co/datasets/ylecun/mnist)
