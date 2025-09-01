@@ -1,0 +1,15 @@
+{
+  "name": "minidiffusion",
+  "version": "1.0.0",
+  "description": "a mini DDPM implementation based on ddpm-mnist[https://huggingface.co/1aurent/ddpm-mnist] with a `28x28` image generation.",
+  "main": "unet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pngjs": "^7.0.0"
+  }
+}

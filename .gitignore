@@ -212,3 +212,6 @@ __marimo__/
 scalar_pack.json
 betas.json
 unet_weights.json
+
+# js part
+node_modules/
