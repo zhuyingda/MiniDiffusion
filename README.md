@@ -3,6 +3,8 @@ a mini DDPM implementation based on ddpm-mnist[https://huggingface.co/1aurent/dd
 
 ## usage
 
+You can generate an image by running these commands:
+
 ```
 python -m venv .venv
 pip install -r requirements.txt
@@ -10,6 +12,8 @@ python prepare.py
 python extract_weights.py
 python unet.py
 ```
+
+You will get `result_final.png` as the output result by `unet.py`.
 
 ## based datasets
 
