@@ -10,8 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "python": "${command:python.interpreterPath}",
-            // "args": ["20241108", "20241111"]
-            // "args": ["20250301"],
+            // "args": ["foo", "bar"]
             "env": {
                 "PYTHONPATH": "${workspaceFolder}"
             },

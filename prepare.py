@@ -9,7 +9,7 @@ from PIL import Image
 # 配置
 MODEL_ID = "1aurent/ddpm-mnist"   # 28x28 灰度、已训练 DDPM
 NUM_INFERENCE_STEPS = 50          # 增加采样步数以获得更好的结果
-SEED = 14                         # 改变种子试试不同结果
+SEED = 42                         # 改变种子试试不同结果
 OUT_JSON = "scalar_pack.json"     # 给 scalar.py 使用的"打包数据"
 REF_PNG = "ref_prepare_result.png"  # 仅供参考：prepare端也存一张结果
 
